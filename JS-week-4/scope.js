@@ -24,14 +24,14 @@ function testScopeGlobal() {
 
 }
   // x can NOT be used here
-// let test3 = 'Hello'
+let test3 = 'Hello'
 
 function testScopeLet() {
     if(true){
         let test3 = 'World'
         console.log(`if block: ${test3}`)
     }
-    // console.log(`let: `, test3)
+    console.log(`let: `, test3) 
 }
 
 // testScopeLet()
@@ -71,9 +71,9 @@ function myFunction() {
     }
 };
 
-// console.log(carName)
+console.log(carName)
 
-// myFunction()
+myFunction()
   
   // code here can NOT use carName
 
