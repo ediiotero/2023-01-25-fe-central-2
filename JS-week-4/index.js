@@ -58,9 +58,15 @@ finishSentence(list, combine)
 // Use the promise to alert "you win" if resolved
 // and "you lose" if rejected
 
-// const myPromise = new Promise((resolve, reject) => {
-    
-// })
+const myPromise = new Promise((resolve, reject) => {
+    const guess = prompt("Guess a number")
+    setTimeout(() => {
+        if(guess >= 10) {
+            resolve("You win")
+        } else {
+            reject("You lose")
+        }
+    }, 3000)
+})
 
-
-
+myPromise.then(value => alert(value)).catch(value => alert(value))
