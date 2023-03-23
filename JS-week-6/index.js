@@ -5,3 +5,28 @@
 // create a new object with this class
 
 
+class Temperature {
+    constructor(fahrenheit) {
+        if(fahrenheit <= 212 && fahrenheit >= -459.67) {
+            this.fahrenheit = fahrenheit
+        } else {
+            console.error(`${fahrenheit} is not a valid fahrenheit temperature`)
+        }
+    }
+
+    celsius() {
+        const fahrenheitToC = ((this.fahrenheit - 32)*5)/9
+        return fahrenheitToC
+    }
+
+    kelvin() {
+        const celsius = this.celsius()
+        return celsius + 273.15
+    }
+}
+
+const temp = new Temperature(100)
+
+console.log(temp)
+console.log(temp.celsius().toFixed(2))
+console.log(temp.kelvin().toFixed(2))
