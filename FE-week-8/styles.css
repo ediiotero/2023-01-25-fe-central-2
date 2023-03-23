@@ -51,4 +51,43 @@ body {
 footer {
     background-color: coral;
     padding: 1rem;
+    margin-top: 2rem;
+}
+
+.large-img {
+    width: 100%;
+}
+
+.red-btn,
+.blue-btn,
+.yellow-btn {
+    padding: .75rem;
+    border: none;
+    cursor: pointer;
+}
+
+.red-btn {
+    background-color: red;
+    color: #fff;
+}
+
+.blue-btn {
+    background-color: blue;
+    color: #fff;
+}
+
+.yellow-btn {
+    background-color: yellow;
+}
+
+.red-btn:hover {
+    background-color: rgb(125, 3, 3);
+}
+
+.blue-btn:hover {
+    background-color: rgb(3, 3, 140);
+}
+
+.yellow-btn:hover {
+    background-color: rgb(168, 168, 2);
 }
