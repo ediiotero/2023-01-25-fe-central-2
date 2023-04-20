@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "title": "New Put Request",
+      "author": "Eddie"
+    },
+    {
+      "id": 5,
+      "title": "What is JQuery",
+      "author": "Lisa Tang"
+    },
+    {
+      "id": 7,
+      "title": "Fursuits",
+      "author": "David Sath"
+    },
+    {
+      "title": "testing",
+      "author": "testing author",
+      "id": 9
+    },
+    {
+      "title": "testing again",
+      "author": "test test",
+      "id": 10
+    },
+    {
+      "title": "sdfsfs",
+      "author": "sdfsdf",
+      "id": 11
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
